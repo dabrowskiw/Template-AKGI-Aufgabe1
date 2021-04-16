@@ -8,7 +8,8 @@ import aufgaben
 
 
 class AufgabenTest(TestCase):
-    def count_method_lines(self, methodname):
+    @staticmethod
+    def count_method_lines(methodname):
         f = open("aufgaben.py", "r")
         t = ast.parse(f.read())
         lines = [f.end_lineno - f.lineno for f in t.body if type(f) == ast.FunctionDef and f.name == methodname][0]
