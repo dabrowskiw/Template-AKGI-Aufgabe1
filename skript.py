@@ -73,8 +73,4 @@ print(next(nums))
 # zu laufen ohne sie komplett im Speicher zu halten oder sehr große Datensätze
 # zu verarbeiten.
 
-
-# AUFGABEN
-# 3.1 Schreiben Sie einen Generator, der ungerade Zahlen zurückgibt und geben Sie die ersten 2 aus:
-# 3.2 Schreiben Sie einen Generator, der die Fibonacci-Folge liefert
-# Hinweis: Sie können yield überall in der Generator-Funktion verwenden.
+# --- Aufgabe 2: Generatoren ---

@@ -3,7 +3,7 @@
 # lösen. Beispielsweise wäre die Lösung, um bei einer übergebenen Liste mit unterschiedlichen Zahlen eine Liste
 # nur mit den Zahlen größer x zurückzugeben:
 def example_list_comprehension(numbers, x):
-    return []
+    return [value for value in numbers if value > x]
 
 
 # Geben Sie ein Array zurück, das in jedem Element der Reihe nach einen Buchstaben des Textes enthält. Beispiel:
@@ -30,4 +30,17 @@ def odd_numbers(maxnumber):
 # Denken Sie daran, dass Sie list comprehensions verschachteln dürfen!
 # Lösen Sie diese Aufgabe in einer Zeile unter Verwendung einer list comprehension!
 def primes(maxnumber):
+    return []
+
+
+# --- Aufgabe 2: Generatoren ---
+
+# Schreiben Sie einen Generator, der ungerade Zahlen zurückgibt
+def odd_numbers_generator():
+    return []
+
+
+# Schreiben Sie einen Generator, der die Fibonacci-Folge liefert
+# Hinweis: Sie können yield überall in der Generator-Funktion verwenden.
+def fibonacci_generator():
     return []
