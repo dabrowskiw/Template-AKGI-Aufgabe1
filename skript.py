@@ -15,7 +15,7 @@ print(even)
 stringdict = dict([(str(x), x) for x in values])
 print(stringdict["12"])
 
-# --- Aufgabe 1: Dictionaries ---
+# --- Aufgabe 1: List Comprehensions ---
 
 
 # Funktionsdefinitionen können überall im Code vorkommen (sollten es aber nicht ;) ):

@@ -1,4 +1,4 @@
-# --- Aufgabe 1: Dictionaries ---
+# --- Aufgabe 1: List Comprehensions ---
 # Um list comprehensions zu üben, spielen wir ein wenig code-golf: Jede der Aufgaben lässt sich mit einer Zeile
 # lösen. Beispielsweise wäre die Lösung, um bei einer übergebenen Liste mit unterschiedlichen Zahlen eine Liste
 # nur mit den Zahlen größer x zurückzugeben:
